@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    background-color: #f4f0ec;
+    color: #4b3621;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    letter-spacing: 3px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4b3621;
+    font-weight: 500;
+}
+
+.hero {
+    background-image: url("https://via.placeholder.com/1600x700/DED0C0/4B3621?text=ELEGANCIA+EM+CADA+DETALHE");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-family: "Playfair Display", serif;
+    margin: 0;
+}
+
+.hero a {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #4b3621;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.colecao {
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    background-color: #fff;
+}
+
+.produto {
+    text-align: center;
+}
+
+.produto img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.produto h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.produto p {
+    font-size: 16px;
+    color: #333;
+}
+
+.sobre {
+    background-color: #f4f0ec;
+    padding: 60px 40px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #e2d8ce;
+    padding: 40px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    margin: 0 10px;
+    color: #4b3621;
+    text-decoration: none;
+}
+
+.container-section-main {
+    display: flex;
+    justify-content: space-around;
+}
